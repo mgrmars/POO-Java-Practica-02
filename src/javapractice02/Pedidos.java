@@ -38,8 +38,11 @@ public class Pedidos {
         System.out.println();
     }
 
+    // Muestra cada variable de la matriz
     public void listarPedidos() {
+        // Recorre las filas
         for (int i = 0; i < pedidos.size(); i++) {
+            // Muestra la columna 0 y 1 (An1, An2) de cada fila.
             System.out.println(pedidos.get(i)[0] + " " + pedidos.get(i)[1]);
         }
         System.out.println();
